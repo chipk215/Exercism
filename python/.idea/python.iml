@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/yacht" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/high-scores" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/series" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/github" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />

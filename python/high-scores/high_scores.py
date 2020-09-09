@@ -3,14 +3,10 @@ def latest(scores):
 
 
 def personal_best(scores):
-    scores.sort(reverse=True)
-    return scores[0]
+    return max(scores)
 
 
 def personal_top_three(scores):
     scores.sort(reverse=True)
-    score_cnt = len(scores)
-    if score_cnt < 3:
-        return scores[0:score_cnt]
-    else:
-        return scores[0:3]
+    # Slicing works on strings smaller than the slice, e.g. [1,2][:3] == [1,2]
+    return scores[0:3]
